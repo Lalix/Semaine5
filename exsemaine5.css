@@ -1,0 +1,210 @@
+header {
+	font-family: bebas_neueregular;	
+    font-size: 35px;
+    font-weight: bold;
+    border-top: 9px solid #000000;
+    border-bottom: 5px solid #000000;
+    width: 100%;
+    height: 150px;
+	background-color: #FFFFFF;
+	position: fixed;
+	z-index: 1;
+	padding-top: 10px;
+    padding-bottom: 40px;
+}
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('bebasneue-webfont.eot');
+    src: url('bebasneue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('bebasneue-webfont.woff2') format('woff2'),
+         url('bebasneue-webfont.woff') format('woff'),
+         url('bebasneue-webfont.ttf') format('truetype'),
+         url('bebasneue-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'bebas_neuethin';
+    src: url('bebasneue_thin-webfont.eot');
+    src: url('bebasneue_thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('bebasneue_thin-webfont.woff2') format('woff2'),
+         url('bebasneue_thin-webfont.woff') format('woff'),
+         url('bebasneue_thin-webfont.ttf') format('truetype'),
+         url('bebasneue_thin-webfont.svg#bebas_neuethin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'bebas_neuelight';
+    src: url('bebasneue_light-webfont.eot');
+    src: url('bebasneue_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('bebasneue_light-webfont.woff2') format('woff2'),
+         url('bebasneue_light-webfont.woff') format('woff'),
+         url('bebasneue_light-webfont.ttf') format('truetype'),
+         url('bebasneue_light-webfont.svg#bebas_neuelight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotolight';
+    src: url('Roboto-Light-webfont.eot');
+    src: url('Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-Light-webfont.woff') format('woff'),
+         url('Roboto-Light-webfont.ttf') format('truetype'),
+         url('Roboto-Light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotothin';
+    src: url('Roboto-Thin-webfont.eot');
+    src: url('Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-Thin-webfont.woff') format('woff'),
+         url('Roboto-Thin-webfont.ttf') format('truetype'),
+         url('Roboto-Thin-webfont.svg#robotothin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+	vertical-align: top;
+}
+.image_flottante {
+	display: inline-block;
+	vertical-align: top;
+}
+#bloc_page {
+	font-family: bebas_neueregular;
+}
+h1 {
+    font-size: 25px;
+}
+h2 {
+	font-size: 20px;
+	font-weight: normal;
+	font-family: bebas_neueregular;
+}
+main {
+	position: relative;
+	float: right;
+	margin-top: 180px;
+	width: 100%;
+	height: 500px;
+	background-color: #F9F9F9;
+	margin-bottom: 5px;
+	font-family: 'bebas_neuelight';
+    background-image: url("fresh_snow.png");
+    background-attachment: fixed; 
+    background-repeat: repeat;
+}
+.conteneur {
+	width: 95%;
+	max-width: 1300px;
+	padding: 10px 10px;
+	margin: 15px 15px;
+}
+.resume {
+	border-bottom: 1px solid #000000;
+	padding-bottom: 0px;
+	}
+.cursus {
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	width: 100%;
+	padding: 10px;
+	}
+.cursus h2 {
+	display: inline-block;
+	vertical-align: top;
+}
+.cursus table {
+	display: inline-block;
+    table-layout: fixed; 
+    width:50%;
+	vertical-align: top;
+	border-spacing: 80px 0px;
+    border: none;
+    white-space: nowrap;
+    word-wrap: break-word;
+    font-family: 'robotothin';
+    font-size: 13px;
+}
+td {
+	width: 80px;
+}
+.experience h2 {
+	display: inline-block;
+	vertical-align: top;
+}
+.experience {
+	border-bottom: 1px solid #000000;
+	width: 100%;
+	padding: 10px;
+	}
+.experience table {
+	display: inline-block;
+    table-layout: fixed; 
+    width:50%;
+	vertical-align: top;
+	border-spacing: 60px 0px;
+    border: none;
+    white-space: nowrap;
+    word-wrap: break-word;
+    font-family: 'robotothin';
+    font-size: 13px;
+}
+.competence {
+	border-bottom: 1px solid #000000;
+	width: 100%;
+	padding: 10px;
+}
+.competence h2 {
+	display: inline-block;
+	vertical-align: top;
+}
+.competence table {
+	display: inline-block;
+    table-layout: fixed; 
+    width:50%;
+	vertical-align: top;
+	border-spacing: 60px 0px;
+    border: none;
+    white-space: nowrap;
+    word-wrap: break-word;
+    font-family: 'robotothin';
+    font-size: 13px;
+}
+.interet h2 {
+	display: inline-block;
+	}
+.interet p {
+	display: inline-block;
+	margin-left: 110px;
+	font-family: 'robotothin';
+    font-size: 13px;
+	}
+footer {
+	margin-top: 20px;
+    width: 960px;
+    height: 240px;
+	background-color: #474A4A;
+	clear: both;
+	font-family: 'bebas_neuethin';
+}
+.carte {
+	display: inline-block;
+	vertical-align: top;
+	float: left;
+	width: 50%;
+	margin-left: 30px;
+}
+.info {
+	display: inline-block;
+	vertical-align: top;
+}
+footer p {
+	padding-top: 15px;
+	color: #F9F9F9;
+}
